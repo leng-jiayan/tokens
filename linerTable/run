@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "\n--------- project $1 start ---------\n"
+g++ -o $1 $1.cpp;./$1;echo "\n--------- project $1 end ---------\n"
+rm $1;
